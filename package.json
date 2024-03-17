@@ -1,0 +1,17 @@
+{
+  "name": "sqlite_demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node": "^21.6.2",
+    "sqlite3": "^5.1.7"
+  }
+}
