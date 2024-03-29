@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Node.js + MySQL</title>
+    <link rel="stylesheet" href="login-and-register.css" />
   </head>
-  <body>
-    <form action="" method="post">
+  <body class="gradient">
+    <nav><a href="/">Головна</a><div><a href="/register">Реєстрація</a><a href="/login">Логін</a></div></nav>
+    <form action="/register" method="post" id="main">
       <input
         type="email"
         placeholder="example@gmail.com*"
@@ -16,7 +17,7 @@
       />
       <input
         type="password"
-        placeholder="example@gmail.com*"
+        placeholder="password*"
         required="required"
         name="password"
       />

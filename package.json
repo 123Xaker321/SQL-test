@@ -1,17 +1,26 @@
 {
   "name": "sqlite_demo",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app01/server.js",
   "scripts": {
-    "dev": ""
+    "dev": "nodemon app01/server.js",
+    "build": "npm install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^4.19.2",
     "mysql": "^2.18.1",
     "node": "^21.6.2",
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.27",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": "^18.18.2"
   }
 }

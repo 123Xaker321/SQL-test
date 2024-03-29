@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js + MySQL</title>
+    <link rel="stylesheet" href="login-and-register.css" />
+  </head>
+  <body class="gradient">
+    <nav><a href="/">Головна</a><div><a href="/register">Реєстрація</a><a href="/login">Логін</a></div></nav>
+    <form action="/login" method="post" id="main">
+      <input
+        type="email"
+        placeholder="example@gmail.com*"
+        required="required"
+        name="email"
+      />
+      <input
+        type="password"
+        placeholder="password*"
+        required="required"
+        name="password"
+      />
+      <button type="submit">Надіслати</button>
+    </form>
+  </body>
+</html>
